@@ -2,6 +2,7 @@
 
 print("Hello, what's up")
 
-test = input("Enter any number now: ")
+num1 = int(input("Enter any number now: "))
+num2 = int(input("Enter another number: "))
 
-print("You entered: " + test)
+print("The sum is: ", num1+num2)
